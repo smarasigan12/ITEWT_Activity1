@@ -1,10 +1,82 @@
 /* You can add global styles to this file, and also import other style files */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-hr {
-    border: 1px solid #ffffff; /* Set the border color to white */
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Arial', sans-serif;
+    }
+
+    * body {
+        margin: 0;
+        padding: 0;
+    }
+
+    * .background-wrapper {
+        background-color: #2f2f36; /* Set the desired background color */
+        padding: 30px; /* Adjust padding as needed */
+    }
+
+    .card {
+        border: none;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    hr {
+        border-color: #ffffff !important;
+        border: 1px solid #ffffff !important;
+    }
+
+    .row {
+        margin-bottom: 1rem;
+    }
+
+    .card-descp1 {
+        color: #ced4da;
+    }
+
+    .card-title1 {
+        font-weight: bold;
+        font-size: 1.2rem;
+        color: #ffffff;
+    }
+
+    hr {
+        height: 2px;
+        border-color: #ffffff !important;
+        border: 1px solid #ffffff !important;
+        margin: 1rem 0; /* Add some margin to space out the lines */
+    }
+
+    .row {
+        margin-bottom: 1rem;
+    }
+
+    .title-col {
+        font-weight: bold;
+        font-size: 1.1rem;
+        color: #ffffff;
+        margin-top: 10px;
+    }
+
+    .description-col {
+        font-size: 1rem;
+        color: #ced4da;
+    }
+
+    .img-col {
+        padding: 0; /* Remove default padding for columns */
+        text-align: center; /* Center the image */
+    }
+
+    .img-col img {
+        max-width: 40%;
+        border-radius: 40%; /* Add a border-radius for a circular image */
+    }
+
+    .card-img-top {
+        max-width: 50%;
+    }

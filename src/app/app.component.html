@@ -1,45 +1,35 @@
 <style>
-
-    body {
-    margin: 0;
-    padding: 0;
-}
     .card {
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
         padding: 15px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         margin-right: 5px;
         background-color: #565659;
         border-radius: 10px;
-    }
-
-    .background-wrapper {
-        background-color: #2f2f36; /* Set the desired background color */
-        padding: 30px; /* Adjust padding as needed */
+        font-family: 'Arial', sans-serif;
     }
 </style>
 
-
 <div class="background-wrapper">
-<div class="container">
-    <div class="text-center">
-        <div class="row">
-            <div class="col-4 card d-flex align-items-center justify-content-center">
-                <img src="https://scontent.fmnl4-1.fna.fbcdn.net/v/t39.30808-6/401004640_7066948900055854_511666444018728509_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=v2Fc5yQrqzsAX_dfv72&_nc_ht=scontent.fmnl4-1.fna&oh=00_AfD32j7Y2JxM4VG1ntXpvo7JwuqT7gUqXWwQlrzQ4hFLXQ&oe=65B19152" alt="Admin" class="rounded-circle rounded-image" width="150">               
-                <app-contact-info></app-contact-info>
+    <div class="container">
+        <div class="text-center">
+            <div class="row">
+                <div class="col-4 card d-flex align-items-center justify-content-center">
+                    <img src="https://scontent.fmnl4-1.fna.fbcdn.net/v/t39.30808-6/401004640_7066948900055854_511666444018728509_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=v2Fc5yQrqzsAX_dfv72&_nc_ht=scontent.fmnl4-1.fna&oh=00_AfD32j7Y2JxM4VG1ntXpvo7JwuqT7gUqXWwQlrzQ4hFLXQ&oe=65B19152" alt="Admin" class="rounded-circle rounded-image" width="150">               
+                    <app-contact-info></app-contact-info>
+                </div>
+                <div class="col card">
+                    <app-personal-info></app-personal-info>
+                </div>
             </div>
-            <div class="col card">
-                <app-personal-info></app-personal-info>
-            </div>
+            <div class="row">
+                <div class="col-4 card text-center">
+                    <app-work-experience></app-work-experience>
+                </div>
+                <div class="col card">
+                    <app-educ-background></app-educ-background>
+                </div>
+            </div>        
         </div>
-        <div class="row">
-            <div class="col-4 card text-center">
-                <app-work-experience></app-work-experience>
-            </div>
-            <div class="col card">
-                <app-educ-background></app-educ-background>
-            </div>
-        </div>        
     </div>
-</div>
 </div>
